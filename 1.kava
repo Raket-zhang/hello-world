@@ -1,2 +1,64 @@
 # hello-world
-fasdfasdfsadfsadf
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ echo "# hello-world" >> README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Raket-zhang/hello-world.git
+git push -u origin master
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ git init
+Reinitialized existing Git repository in D:/git/hello-world/.git/
+
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ git add README.md
+
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ git commit -m "first commit"
+[master (root-commit) e440222] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ git remote add origin https://github.com/Raket-zhang/hello-world.git
+fatal: remote origin already exists.
+
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ git push -u origin master
+Username for 'https://github.com': Raket-zhang
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 220 bytes | 220.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Raket-zhang/hello-world.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ git pull origin master
+From https://github.com/Raket-zhang/hello-world
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ git add .\
+> ^C
+
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ git add .
+
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ git commit -m '提交1.kaava'
+[master 1b661b1] 提交1.kaava
+ 1 file changed, 2 insertions(+)
+ create mode 100644 1.kava
+
+jianshu.zhang@SZOSS-90514 MINGW64 /d/git/hello-world (master)
+$ git push origin master
+Username for 'https://github.com': Raket-zhang
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Raket-zhang/hello-world.git
+   e440222..1b661b1  master -> master
+
